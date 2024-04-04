@@ -2,9 +2,9 @@ using Microsoft.AspNetCore.Components.Authorization;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using NetBack.Infrastructure;
+using NetBack.Infrastructure.DataAccess.Auth;
 using NetBack.UI.Components;
 using NetBack.UI.Components.Account;
-using NetBack.UI.Data;
 
 var builder = WebApplication.CreateBuilder(args);
 

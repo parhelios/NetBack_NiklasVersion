@@ -1,7 +1,7 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
-using NetBack.UI.Data;
+using NetBack.Infrastructure.DataAccess.Auth;
 
 namespace NetBack.Infrastructure;
 

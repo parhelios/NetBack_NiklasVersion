@@ -1,6 +1,6 @@
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Identity.UI.Services;
-using NetBack.UI.Data;
+using NetBack.Infrastructure.DataAccess.Auth;
 
 namespace NetBack.UI.Components.Account
 {

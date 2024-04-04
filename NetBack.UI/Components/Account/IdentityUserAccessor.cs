@@ -1,5 +1,5 @@
 using Microsoft.AspNetCore.Identity;
-using NetBack.UI.Data;
+using NetBack.Infrastructure.DataAccess.Auth;
 
 namespace NetBack.UI.Components.Account
 {

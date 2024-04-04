@@ -2,8 +2,8 @@ using Microsoft.AspNetCore.Components.Authorization;
 using Microsoft.AspNetCore.Components.Server;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.Extensions.Options;
-using NetBack.UI.Data;
 using System.Security.Claims;
+using NetBack.Infrastructure.DataAccess.Auth;
 
 namespace NetBack.UI.Components.Account
 {
