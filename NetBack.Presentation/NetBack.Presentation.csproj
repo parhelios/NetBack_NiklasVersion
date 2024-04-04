@@ -1,22 +1,19 @@
-<Project Sdk="Microsoft.NET.Sdk.Web">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <TargetFramework>net8.0</TargetFramework>
-    <Nullable>enable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
-    <UserSecretsId>aspnet-NetBack.UI-1b602d84-da27-4154-bebc-cc881bb670fe</UserSecretsId>
+    <Nullable>enable</Nullable>
   </PropertyGroup>
 
   <ItemGroup>
     <PackageReference Include="Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore" Version="8.0.3" />
     <PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="8.0.3" />
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="8.0.1" />
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\NetBack.Application\NetBack.Application.csproj" />
-    <ProjectReference Include="..\NetBack.Domain\NetBack.Domain.csproj" />
     <ProjectReference Include="..\NetBack.Infrastructure\NetBack.Infrastructure.csproj" />
-    <ProjectReference Include="..\NetBack.Presentation\NetBack.Presentation.csproj" />
   </ItemGroup>
 
 </Project>
